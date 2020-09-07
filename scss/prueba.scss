@@ -1,0 +1,41 @@
+$base-font-size: 26px;	
+$font-size-h3: 22px;
+$background-color-h3: #eeecda;
+$padding: 10px;
+$header-color: white;
+$margen-fotos: 15px;
+$font-h4: italic;
+$color-h4: #0b0440;
+$font-size-h4: 17px;
+
+
+h2{
+	font-size: $base-font-size;
+
+}
+
+h3{
+	font-size: $font-size-h3;
+	background-color: $background-color-h3;
+	padding: $padding;
+}
+
+body{
+	background-color: $background-color-h3;
+}
+
+
+section{
+	background-color: $header-color;
+}
+
+img{
+	margin: $margen-fotos;
+}
+
+h4{
+	color: $color-h4;
+	font-style: $font-h4;
+	font-size: $font-size-h4;
+	padding: $padding;
+}

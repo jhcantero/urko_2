@@ -17,7 +17,8 @@ ul li {
 
 h2 {
 	font-size: 25px;
-	margin-top: 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
 
 }
 
@@ -136,7 +137,7 @@ nav {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	width: 350px;
+	width: 250px;
 	align-items: center;
 	margin: auto;
 }
@@ -201,6 +202,13 @@ nav {
    background-color: #6a2c70;
 }
 
+.efectoCateg:hover {
+   padding: 5px;
+   border-radius: 3px;
+   color: #eeecda;
+   background-color: #6a2c70;
+}
+
 .margen {
 	margin: 0 0 0 40px;
 	font-size: 100%;
@@ -236,14 +244,27 @@ nav {
 
 }
 
+.block {
+	display: block;
+}
+
 .justificado {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 }
 
 .espacioIzq {
 	display: flex;
 	justify-content: center;
-
-
 }
+
+.top-margin {
+	margin-top: 140px;
+}
+
+.margenSup {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
